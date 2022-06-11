@@ -1,0 +1,17 @@
+.sideBarRow{
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    cursor: pointer;
+
+}
+.sideBarRow:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+.sideBarRow p{
+    margin-left: 10px;
+    font-weight: 600;
+    color: #050505;
+    font-size: 15px;
+}

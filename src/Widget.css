@@ -1,0 +1,53 @@
+.section1{
+    cursor: pointer;
+}
+.top-widget p{
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #65676b;
+}
+.sponsored-images{
+    display: flex;
+}
+.sponsored-img img{
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+}
+.sponsored-text{
+    padding: 10px;
+}
+
+
+.top-contact{
+    display: flex;
+    justify-content: space-between;
+}
+.contacts{
+    border-top: 2px solid gray;
+    margin-top: 15px;
+}
+.contact-img{
+    margin: 5px;
+    color: #65676b;
+    font-size: 27px;
+    padding: 5px;
+
+}
+.contact-img:hover{
+    background-color: gray;
+    border-radius: 999px;
+    cursor: pointer;
+}
+.contacts-list li{
+    list-style: none;
+    display: flex;
+    margin-top: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+.contacts-list li:hover{
+        background-color: rgb(225, 222, 222);
+        border-radius: 12px;
+}
